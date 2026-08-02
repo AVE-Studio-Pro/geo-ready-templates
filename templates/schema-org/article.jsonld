@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://example.com/blog/slug#article",
+  "headline": "Article title, under 110 characters",
+  "description": "One or two sentences that summarise the article on their own.",
+  "url": "https://example.com/blog/slug",
+  "inLanguage": "en",
+  "datePublished": "2026-01-15",
+  "dateModified": "2026-02-01",
+  "author": {
+    "@type": "Person",
+    "name": "Author Name",
+    "url": "https://example.com/about/author-name",
+    "jobTitle": "Role that makes the author credible on this topic"
+  },
+  "publisher": { "@id": "https://example.com/#organization" },
+  "image": ["https://example.com/blog/slug/cover.png"],
+  "about": [
+    { "@type": "Thing", "name": "Primary topic" }
+  ],
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "Source that backs the main claim",
+      "url": "https://source.example.org/study"
+    }
+  ],
+  "isPartOf": { "@id": "https://example.com/#website" }
+}
