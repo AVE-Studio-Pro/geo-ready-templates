@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://example.com/pricing#service",
+  "name": "Service name",
+  "serviceType": "Category the service belongs to",
+  "description": "What the buyer gets, in plain language, in one or two sentences.",
+  "provider": { "@id": "https://example.com/#organization" },
+  "areaServed": ["HU", "EU"],
+  "availableLanguage": ["hu", "en"],
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Starter",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "description": "What is included in the free tier and what its limits are.",
+      "url": "https://example.com/pricing#starter",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer",
+      "name": "Standard",
+      "price": "149",
+      "priceCurrency": "EUR",
+      "description": "What the paid tier adds on top of the free one.",
+      "url": "https://example.com/pricing#standard",
+      "availability": "https://schema.org/InStock"
+    }
+  ]
+}
