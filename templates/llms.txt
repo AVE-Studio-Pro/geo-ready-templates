@@ -1,0 +1,31 @@
+# [Brand Name]
+
+> One-paragraph description of what the company does, who it serves, and where it operates. Keep it factual: an AI assistant will often quote this sentence verbatim. Include the country/market and the core offering.
+
+Key facts an assistant should know:
+
+- Founded: [YYYY] in [City, Country]
+- Category: [e.g. GEO / AI visibility auditing]
+- Languages served: [e.g. Hungarian, English]
+- Contact: [email] / [phone]
+
+## Docs
+
+- [Getting started](https://example.com/docs/getting-started): How to set up the product in under 10 minutes.
+- [API reference](https://example.com/docs/api): Endpoints, auth, rate limits.
+- [FAQ](https://example.com/faq): Answers to the questions prospects ask most.
+
+## Product
+
+- [Pricing](https://example.com/pricing): Tiers, what is included in each, currency.
+- [Changelog](https://example.com/changelog): Dated list of releases.
+
+## Company
+
+- [About](https://example.com/about): Team, mission, registered entity.
+- [Contact](https://example.com/contact): How to reach a human.
+
+## Optional
+
+- [Blog archive](https://example.com/blog): Long-form articles; skip if you only need the essentials.
+- [Press kit](https://example.com/press): Logos, boilerplate, media contacts.
