@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://example.com/faq#faqpage",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does the product do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Answer in two or three full sentences. Write it so it can stand alone when quoted without the question next to it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "State the currency, the tiers and what each tier includes. Avoid vague wording such as affordable pricing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which countries and languages are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Name the markets and languages explicitly. Assistants rarely infer geography correctly."
+      }
+    }
+  ]
+}
